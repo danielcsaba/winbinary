@@ -25,10 +25,10 @@ def write_version_py(filename=None):
         f.close()
 
 
-write_version_py()
+# write_version_py()
 
-import build_interface
-build_interface.main()
+# import build_interface
+# build_interface.main()
 
 # Setup
 setup(name="rvlib",
